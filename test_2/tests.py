@@ -1,6 +1,6 @@
 from YandexPages import SearchHelper
 
-def test_first_task(browser):
+def test_second_task(browser):
     main_page = SearchHelper(browser)
     main_page.go_to_site()
     main_page.image_link()
