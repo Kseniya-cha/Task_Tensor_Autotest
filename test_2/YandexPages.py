@@ -1,10 +1,7 @@
-from sympy import im
 from BaseApp import BasePage
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import allure
-from allure_commons.types import AttachmentType
-
 
 class YandexSeacrhLocators:
 
@@ -20,7 +17,7 @@ class YandexSeacrhLocators:
 class SearchHelper(BasePage):
 
 
-    @allure.feature('2-3  пункты')
+    @allure.feature('2-3 пункты')
     def image_link(self):
         with allure.step('2) Проверить, что ссылка «Картинки» присутствует на странице'):
             images_link = self.wait_of_element(
