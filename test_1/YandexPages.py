@@ -16,7 +16,6 @@ class SearchHelper(BasePage):
 
 
     @allure.feature('Проверка наличия поля поиска и таблицы с подсказками')
-    @allure.severity('blocked')
     def enter_text(self):
         with allure.step('2) Проверить наличия поля поиска'):
             search_field = self.wait_of_element(
