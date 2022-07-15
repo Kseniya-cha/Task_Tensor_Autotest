@@ -1,4 +1,3 @@
-from sympy import im
 from BaseApp import BasePage
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
